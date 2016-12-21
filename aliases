@@ -1,0 +1,24 @@
+# Shortcuts
+alias .='cd ..'
+alias ..='cd ../../'
+alias desktop='cd ~/Desktop'
+alias documents='cd ~/Documents'
+alias volumes='cd ~/../../Volumes && ls'
+alias quit="killall Terminal"
+alias finder='open -a Finder ./'
+
+# Lazy Aliases
+alias ioetep='cd ~/GitHub/ioetep/'
+alias github='cd ~/GitHub'
+alias drive='cd ~/Google\ Drive/'
+alias vbox-start='VBoxManage startvm'
+alias vbox-off='VBoxManage controlvm "$1" poweroff --soft'
+alias sayp='say -v luciana' # Say in Portuguese(my mother language :P)
+
+# System aliases
+alias airplaneOn="m wifi off && m bluetooth disable"
+alias airplaneOff="m wifi on && m bluetooth enable"
+alias myip='curl ip.appspot.com'
+alias cleanupDS="find . -type f -name '*.DS_Store' -ls -delete"
+alias finderShowHidden='defaults write com.apple.finder ShowAllFiles TRUE'
+alias finderHideHidden='defaults write com.apple.finder ShowAllFiles FALSE'
