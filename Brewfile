@@ -74,6 +74,7 @@ cask 'virtualbox'
 cask 'vlc'
 cask 'java'
 # cask 'visual-studio'
+# cask 'android-studio'
 
 # Google Slavery
 cask 'google-chrome'
@@ -96,7 +97,7 @@ cask 'openemu'
 cask 'remote-play'
 cask 'whatsapp'
 
-# CTF tools 
+# CTF tools
 brew 'aircrack'
 brew 'bfg'
 brew 'binutils'
@@ -124,8 +125,10 @@ brew 'xz'
 cask 'torbrowser'
 
 # => AppStore Apps
-# spark
-# microsoft remote desktop
-# pocket
-# wunderlist
-# keynote
+brew 'mas'
+mas '1176895641' # Spark
+mas '715768417' # Microsoft Remote Desktop
+mas '568494494'  # pocket
+mas '410628904'  # wunderlist
+mas '409183694'  # keynote
+mas '497799835'  # xcode
