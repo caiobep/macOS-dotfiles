@@ -1,14 +1,14 @@
 # Brewfile by Caiobep
 
 # Setting up cask dir
-cask_args appdir:'/Applications'
+cask_args appdir:'~/Applications'
 
 # Homebrew Bundle
 tap 'homebrew/bundle'
 
 ## caskroom/cask
 tap 'caskroom/cask'
-brew 'brew-cask'
+brew 'cask'
 
 ## homebrew/binary
 tap 'homebrew/binary'
@@ -124,11 +124,11 @@ brew 'xpdf'
 brew 'xz'
 cask 'torbrowser'
 
-# => AppStore Apps
-brew 'mas'
-mas '1176895641' # Spark
-mas '715768417' # Microsoft Remote Desktop
-mas '568494494'  # pocket
-mas '410628904'  # wunderlist
-mas '409183694'  # keynote
-mas '497799835'  # xcode
+# # => AppStore Apps
+# brew 'mas'
+# mas '1176895641' # Spark
+# mas '715768417' # Microsoft Remote Desktop
+# mas '568494494'  # pocket
+# mas '410628904'  # wunderlist
+# mas '409183694'  # keynote
+# mas '497799835'  # xcode
