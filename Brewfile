@@ -13,10 +13,6 @@ brew 'cask'
 ## homebrew/binary
 tap 'homebrew/binary'
 
-## homebrew/boneyard
-tap 'homebrew/boneyard'
-brew 'googlecl'
-
 # Updating native GNU core
 brew 'coreutils'
 
@@ -28,18 +24,15 @@ brew 'findutils'
 
 # --- Apps and Tools ---
 # Development
-brew 'ack'
-brew 'android-plataform-tools'
 brew 'bash'
-brew 'bash-completion2'
 brew 'docker'
 brew 'gdrive'
 brew 'git'
+brew 'bash-completion'
 brew 'go'
 brew 'grc'
 brew 'jp2a'
 brew 'jq'
-brew 'libcaca', args: ['with-imlib2']
 brew 'libgit2'
 brew 'm-cli'
 brew 'mysql'
@@ -80,7 +73,6 @@ cask 'java'
 cask 'google-chrome'
 cask 'google-drive'
 cask 'google-photos-backup'
-cask 'chromecast'
 
 # Personal Productivity apps
 cask 'dropbox'
@@ -98,7 +90,7 @@ cask 'remote-play'
 cask 'whatsapp'
 
 # CTF tools
-brew 'aircrack'
+brew 'aircrack-ng'
 brew 'bfg'
 brew 'binutils'
 brew 'binwalk'
@@ -120,7 +112,6 @@ brew 'tcpflow'
 brew 'tcpreplay'
 brew 'tcptrace'
 brew 'ucspi-tcp'
-brew 'xpdf'
 brew 'xz'
 cask 'torbrowser'
 
