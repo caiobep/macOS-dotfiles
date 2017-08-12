@@ -22,12 +22,21 @@ function apmBackup() {
 function hyperBackup() {
 	echo "Backing your Hyper ▲ packages"
 	cp ~/.hyper_plugins/package.json ./enviroment/hyperterm.json
+	cp ~/.hyper.* ./enviroment
 }
 
 function enviromentBackup() {
 	brewBackup
 	apmBackup
 	hyperBackup
+}
+
+function pushChanges() {
+	echo "Pushing your changes to GitHub"
+	git add .
+	git commit -m 'Dotfiles Update'
+	git push
+	echo "Changes uploaded!"
 }
 
 # Backup dotfiles

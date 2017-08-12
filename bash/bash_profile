@@ -1,0 +1,9 @@
+# Aliases
+source ~/.bash_config/aliases.sh
+# Functions
+source ~/.bash_config/functions.sh
+# Profile
+source ~/.bash_config/profile.sh
+# Exports
+source ~/.bash_config/exports.sh
+
