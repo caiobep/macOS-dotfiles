@@ -5,6 +5,14 @@ function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
 
+function mkg() {
+    mkdir -p "$@" && cd "$_" && git init;
+}
+
+function mkn() {
+    mkg && npm init -y
+}
+
 # kill all processes of a certain type
 function nuke {
     kill `ps aux | grep $1 | awk '{print $2}'`

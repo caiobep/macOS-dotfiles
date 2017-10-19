@@ -1,10 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 function bashBackup() {
 	rm -rf ./bash/;
 	mkdir ./bash/;
 	echo "Backing up your bash 👴 config"
-	cp -rf ~/.bash_config ./bash;
+	cp -rf ~/.bash_config ./bash/bash_config;
 	cp ~/.bash_profile ./bash/bash_profile;
 }
 

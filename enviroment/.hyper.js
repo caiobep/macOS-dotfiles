@@ -2,31 +2,18 @@ module.exports = {
   config: {
 
     fontSize: 13,
-
     fontFamily: 'Space Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
-
     cursorColor: 'rgba(248,28,229,0.8)',
-
     cursorShape: 'BLOCK',
-
     cursorBlink: true,
-
     foregroundColor: '#fff',
-
     backgroundColor: '#000',
-
     borderColor: '#333',
-
     css: '',
-
     termCSS: '',
-
     showHamburgerMenu: '',
-
     showWindowControls: '',
-
     padding: '5px 10px',
-
     colors: {
       black: '#000000',
       red: '#ff0000',
@@ -45,21 +32,20 @@ module.exports = {
       lightCyan: '#00ffff',
       lightWhite: '#ffffff'
     },
-
     shell: '',
-
     shellArgs: ['--login'],
-
     env: {},
-
     bell: 'SOUND',
-
     copyOnSelect: true,
-
-    backgroundOpacity: '0.2'
+    backgroundOpacity: '0.2',
+    windowSize: [700,420]
 
   },
-
+ 
+  modifierKeys: {
+      altIsMeta: true
+  },
+  
   plugins: [
     "nord-hyper",
     "hyper-tab-icons",
@@ -68,7 +54,7 @@ module.exports = {
     "hyper-statusline",
     "hypercwd",
     "hyper-space",
-    "hyper-ligatures"
+    "hyperlinks"
   ],
 
   localPlugins: []

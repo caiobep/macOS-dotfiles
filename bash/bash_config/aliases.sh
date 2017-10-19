@@ -9,6 +9,11 @@ alias desk="cd ~/Desktop"
 # handy things to have
 alias ll="ls -lahG"
 
+# Wow such git
+alias such=git
+alias very=git
+alias wow='git status'
+
 # Shortcuts
 alias .='cd ..'
 alias ..='cd ../../'
