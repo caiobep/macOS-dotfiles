@@ -1,8 +1,8 @@
 module.exports = {
   config: {
-
-    fontSize: 13,
-    fontFamily: 'Space Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontSize: 12,
+    fontFamily: 'Menlo',
+    // fontFamily: 'Operator Mono,Space Mono, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     cursorColor: 'rgba(248,28,229,0.8)',
     cursorShape: 'BLOCK',
     cursorBlink: true,
@@ -41,20 +41,19 @@ module.exports = {
     windowSize: [700,420]
 
   },
- 
+
   modifierKeys: {
       altIsMeta: true
   },
-  
+
   plugins: [
-    "nord-hyper",
     "hyper-tab-icons",
     "hyper-stylesheet",
-    "gitrocket",
     "hyper-statusline",
     "hypercwd",
-    "hyper-space",
-    "hyperlinks"
+    "hyperlinks",
+    "hyperterm-hipster",
+    "nord-hyper"
   ],
 
   localPlugins: []
